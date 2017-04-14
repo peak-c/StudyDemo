@@ -16,5 +16,6 @@ public class DateTest {
 		Date date = dateFormat.parse("Fri Aug 28 18:08:30 CST 2015");
 		System.out.println(date.getTime());
 		
+		System.out.println(new Date().getTime());
 	}
 }
