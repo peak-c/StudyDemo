@@ -1,5 +1,6 @@
 package com.peak.StudyDemo.util;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -22,6 +23,9 @@ public class CollectionTest {
 		Collections.synchronizedMap(hm);
 		
 		ConcurrentHashMap<String, String> chm = new ConcurrentHashMap<String, String>();
+		
+		
+		ArrayList<String> a;
 	}
 
 }
