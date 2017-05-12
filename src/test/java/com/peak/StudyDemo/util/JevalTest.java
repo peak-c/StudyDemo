@@ -6,6 +6,7 @@ import java.util.regex.Pattern;
 
 import org.junit.Test;
 
+import net.sourceforge.jeval.EvaluationException;
 import net.sourceforge.jeval.Evaluator;
 
 public class JevalTest {
@@ -42,6 +43,13 @@ public class JevalTest {
 		}  
 
 
+	}
+	@Test
+	public void fun3() throws EvaluationException{
+		String exp = "((0)||(1))";
+		Evaluator jevalEvaluator = new Evaluator();  
+		
+		System.out.println(jevalEvaluator.evaluate(exp));
 	}
 
 
